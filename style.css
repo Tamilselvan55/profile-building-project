@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: #edeef0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li{margin: 0 20px;}
+.logotxt{
+    font-size:3em;
+font-weight: 700;
+color:#f05136;
+}
+.clktxt{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.clktxt:hover{
+    color: #f05136;
+}
+#HOME{
+    background: black;
+    color: white;
+    height: 450px;     
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+header h3{
+    font-size:2em ;
+    font-weight: 200;
+}
+h1,h3,h4{
+    font-weight: 600;
+}
+h2{font-weight: 500;}
+h1{font-size: 5em;}
+h2{font-size: 4em;}
+h3{font-size: 2.5em;}
+h4{font-size: 1.5em;}
+
+#HOME h3{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+
+}
+.link-button{
+    text-decoration: none;
+    text-align: center;
+    background: #f05136;
+    cursor: pointer;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    padding:10px;
+    border-radius: 5%;
+    border-color: black;
+}
+.link-button:hover{
+    color: white;
+}
+#BIO img{
+    width: 500px;
+    height: 250px;
+    border-radius:30%;
+    margin: 50px;
+
+}
+P{
+    font-size: 1.5em;
+}
+hr{
+    width: 400px;
+}
+#PORTFOLIO{
+
+    background: url(./assets/portfolio-background-2\ \(1\).svg);
+    background-color:  black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+#PORTFOLIO div article{
+     background-color: white;
+    color: black;
+    height: 200px;
+    width: 250px;
+
+}
+#PORTFOLIO h3,p,hr{
+    margin-bottom: 20px;
+}
+
+
+#PORTFOLIO div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+
+
+progress[value]{
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+
+}
+progress[value]::-webkit-progress-bar{
+    background-color: grey;
+    border-radius: 2px;
+    box-shadow: 0 2px  5px rgba(0,0,0, 25 inset);
+
+}
+::-webkit-progress-value{
+    background-color: #f05136;
+}
+#SKILLS ul{
+
+font-size: 1.5em;
+}
+#CONTACT{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    line-height: 2em;
+    width: 350px;
+border-radius: 3px;
+border-color: black;
+margin: 20px 0;
+}
+#CONTACT form input:last-child{
+    margin-top: 20px;
+
+}
+#BIO{
+    display: flex;
+    align-items: center;
+
+}
+#BIO article{
+    margin: 20px;
+}
+.break{
+    display: block;
+}
+#SKILLS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+#skills-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#SKILLS ul{
+    list-style: none;
+}
+#SKILLS u li{
+    margin: 10px 0;
+}
+#skills-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#CONTACT form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px o;
+
+}
+
+
+
